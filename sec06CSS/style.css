@@ -1,8 +1,59 @@
 
-h2 {
-    color: red;
+* {
+    text-align: right;
 }
 
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg");
+    background-size : cover;
+}
+
+/* p {
+    color     : #AA3939;
+    text-align: center;
+    border    : 3px dashed rgba(80, 22, 41, 0.5);
+    cursor    : pointer;
+} */
+
+
 p {
-    color: green;
+    color          : #AA3939;
+    text-decoration: underline;
+    border         : 3px dashed rgba(80, 22, 41, 0.5);
+    text-align     : center;
+    font-size      : 30px;
+    line-height    : 40px;
+    font-style     : italic;
+    font-weight    : bold;
+    font-family    : 'Major Mono Display', monospace;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear     : both;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    display   : inline-block;
+}
+
+.webtext {
+    border: 5px dashed blue;
+}
+
+.active {
+    color: rgba(243, 120, 227, 0.945);
+}
+
+#div1 {
+    background: rgba(255, 136, 0, 0.4);
+}
+
+#div2 {
+    background: rgba(120, 243, 151, 0.945)
 }
