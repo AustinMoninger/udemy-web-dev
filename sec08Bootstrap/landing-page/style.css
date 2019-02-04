@@ -15,11 +15,23 @@ body {
 
 div {
   color          : white;
-  font-size      : 30px;
   display        : flex;
   flex-wrap      : wrap;
   justify-content: center;
   text-align     : center;
-  margin-top     : 6em;
-  position       : relative,
+  margin-top     : 12em;
+  /* height  : 50%; */
+  position: relative,
+}
+
+p {
+  font-size: 30px;
+}
+
+button {
+  color           : white;
+  background-color: rgb(189, 59, 27);
+  border-radius   : 30px;
+  font-size       : 12px;
+  padding         : 12px 28px;
 }
